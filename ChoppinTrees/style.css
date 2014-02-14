@@ -1,0 +1,250 @@
+
+html {
+	background: url(background.png) no-repeat center center fixed;
+	background-size: cover;
+}
+body {
+	padding-top: 25px;
+	overflow: auto;
+	margin: 0;
+	box-sizing: border-box;
+}
+html, body {
+	height: 100%;
+}
+h1 {
+	font-family: 'Oswald', sans-serif;
+	color: #FFF;
+}
+h1, h2, p {
+	margin: 0;
+	font-weight: normal;
+}
+a {
+	text-decoration: none;
+}
+img.rounded {
+	border-radius: 5px;
+}
+.content {
+	color: #FFF;
+	font-family: 'Open Sans', sans-serif;
+	text-shadow: 1px 1px 0 #000;
+	background: rgba(24, 24, 24, 0.73);
+	display: inline-block;
+	text-align: justify;
+	line-height: 20px;
+	text-indent: 30px;
+}
+
+/* begin menu */
+	div#nav {
+		overflow: hidden;
+	}
+	div#nav ul li {
+		list-style: none;
+		display: block;
+		float: left;
+		margin: 0 1em;
+	}
+	div#nav ul li a {
+		text-shadow: 0 2px 1px rgba(0,0,0,0.5);
+		display: block;
+		color: #fff;
+		font-size: 1.6em;
+		margin: 0 .5em;
+		line-height: 62px;
+		font-family: 'Oswald', sans-serif;
+	}
+	div#nav ul li a:hover {
+		color: #f0f0f0;
+	}
+	div#nav ul li a.active:before {
+		content: '✪';
+		font-family: tahoma, verdana, arial, sans-serif;
+		margin-right: 10px;
+	}
+	div#nav div.container {
+		margin: 0 auto;
+		margin-top: -30px;
+		width: 960px;
+	}
+	.rectangle {
+		background: #e5592e;
+		height: 62px;
+		position: relative;
+		-moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+		box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+		z-index: 500; /* the stack order: foreground */
+		margin: 3em 0;
+	}
+	.l-triangle-top {
+	   border-color: #d9542b transparent transparent;
+	   border-style:solid;
+	   border-width:50px;
+	   height:0px;
+	   width:0px;
+	   position: relative;
+	   float: left;
+	   top: 1px;
+	   left: -50px;
+	}
+	.l-triangle-bottom {
+	   border-color: transparent transparent #d9542b;
+	   border-style:solid;
+	   border-width:50px;
+	   height:0px;
+	   width:0px;
+	   position: relative;
+	   float: left;
+	   top: -40px;
+	   left: -150px;
+	}
+	.r-triangle-top {
+	   border-color: #d9542b transparent transparent;
+	   border-style:solid;
+	   border-width:50px;
+	   height:0px;
+	   width:0px;
+	   position: relative;
+	   float: right;
+	   right: -45px;
+	   top: -107px;
+	}
+	.r-triangle-bottom {
+	   border-color: transparent transparent #d9542b;
+	   border-style:solid;
+	   border-width:50px;
+	   height:0px;
+	   width:0px;
+	   position: relative;
+	   float: right;
+	   top: -149px;
+	   right: -145px;
+	}
+/* end menu */
+
+/* begin left pane */
+	div#leftPane
+	{
+		width: 490px;
+		float: left;
+	}
+	div#leftPane div#titlePane {
+		color: #FFF;
+	}
+	div#leftPane p, div#leftPane ul {
+		padding: 5px 10px 5px 20px;
+		width: 450px;
+		text-indent: 107px;
+	}
+	div#leftPane div#titlePane p a {
+		color: #F60;
+		text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
+	}
+	div#leftPane div#titlePane h1 {
+		font-size: 4em;
+	}
+	div#leftPane h1 {
+		width: 475px;
+		text-align: right;
+	}
+	div#leftPane div#externalLinks ul
+	{
+		list-style: none;
+		margin: 0;
+		text-align: right;
+	}
+	div#leftPane div#externalLinks ul li
+	{
+		margin: 0;
+		padding: 0;
+	}
+	div#leftPane div#externalLinks a
+	{
+		color: #FFF;
+	}
+	div#leftPane div#calendar
+	{
+		color: #fff;
+		width: 450px;
+		font-family: 'Open Sans', sans-serif;
+		background: rgba(24, 24, 24, 0.73);
+		padding: 5px 10px 5px 20px;
+	}
+/* end left pane */
+
+/* begin content */
+	div#content {
+		overflow: hidden;
+		padding: 0 60px;
+		margin-top: -145px;
+	}
+	div#content div.content {
+		padding: 15px 15px 0;
+		border-radius: 5px;
+		display: block;
+	}
+	div#content div.newsPost {
+		margin: 10px 0;
+	}
+	div#content div.newsPost:first-child {
+		margin: 0;
+	}
+    div.postInfo {
+        border-top: solid 1px #000;
+        padding: 5px 0;
+        text-indent: 0;
+        margin-top: 15px;
+    }
+    div.postInfo div.postTime {
+    	display: inline-block;
+    	vertical-align: top;
+    	color: #BEBEBE;
+    }
+/* end content */
+
+/* begin character */
+	div.character img.charAvatar {
+		border: solid 1px #000;
+		margin: 0 10px 0 0;
+		padding: 0;
+		width: 68px;
+		height: 68px;
+	}
+	div.character {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 16px;
+		display: inline-block;
+	}
+	div.character a.characterLink {
+		font-size: 20px;
+	}
+	div.character a.guildLink {
+		color: white;
+	}
+	div.character div.linkCont {
+		display: inline-block;
+		vertical-align: top;
+	}
+	div.character div.linkCont > * {
+		display: block;
+	}
+	span.spec span {
+		vertical-align: top;
+		line-height: 24px;
+		margin: 0 10px 0 5px;
+	}
+	span.spec img {
+	    width: 22px;
+	    height: 22px;
+	    border: solid 1px #CA1212;
+	}
+	span.spec.selected img {
+		border-color: #5CCA12;
+	}
+
+/* end character */

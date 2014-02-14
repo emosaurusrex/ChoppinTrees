@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Framework.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="GuildTitle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">choppinTREES</Value>
+    </Setting>
+    <Setting Name="GuildName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CHOPPIN' TREES</Value>
+    </Setting>
+    <Setting Name="Realm" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Mug'thol</Value>
+    </Setting>
+    <Setting Name="Faction" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Horde</Value>
+    </Setting>
+    <Setting Name="ExternalLinks" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

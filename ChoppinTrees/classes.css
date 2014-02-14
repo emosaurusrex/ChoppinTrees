@@ -1,0 +1,33 @@
+﻿[data-class="deathknight"] {
+    color: #C41F3B;
+}
+[data-class="druid"] {
+    color: #FF7D0A;
+}
+[data-class="hunter"] {
+    color: #ABD473;
+}
+[data-class="mage"] {
+    color: #69CCF0;
+}
+[data-class="monk"] {
+    color: #00FF96;
+}
+[data-class="paladin"] {
+    color: #F58CBA;
+}
+[data-class="priest"] {
+    color: #FFF;
+}
+[data-class="rogue"] {
+    color: #FFF569;
+}
+[data-class="shaman"] {
+    color: #0070DE;
+}
+[data-class="warlock"] {
+    color: #9482C9;
+}
+[data-class="warrior"] {
+    color: #C79C6E;
+}
